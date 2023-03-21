@@ -22,12 +22,12 @@
 --background_text_oceanic: #0e5f99cf; /* le texte en background */
 --word_oceanic: #fff; /* certains mots des textes */
 
-/* Theme tertiaire "à déterminer" */
---text_test: #b71540; /* les textes */
---link_hover_test: #b71540; /* les textes */
---background_test: #b8e994; /* le background */
---background_text_test: #b8e994; /* le texte en background */
---word_test: #fff; /* certains mots des textes */
+/* Theme tertiaire "city" */
+--text_city: #2f3640; /* les textes */
+--link_hover_city: #303843; /* les textes */
+--background_city: #dcdde1; /* le background */
+--background_text_city: #eef0f5d5; /* le texte en background */
+--word_city: #b71540; /* certains mots des textes */
 
 /* colors */
 

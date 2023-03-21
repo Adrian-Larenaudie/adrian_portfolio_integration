@@ -70,3 +70,43 @@
 .oceanic_theme_svg svg:hover {
     fill: var(--link_hover_oceanic);
 }
+
+/* THEME CITY */
+
+/* les textes & le background  */
+.city_theme_main_background {
+    background-color: var(--background_city);
+}
+.city_theme_main {
+    color: var(--text_city);
+    border-color: var(--text_city);
+}
+.city_theme_link {
+    transition: .3s;
+    color: var(--text_city);
+    font-weight: 600;
+}
+.city_theme_link:hover {
+    color: var(--link_hover_city);
+}
+/* les mot possédant une couleur différentes */
+.city_theme_word {
+    color: var(--word_city);
+    font-weight: 600;
+}
+/* le texte en background  */
+.city_theme_background_text {
+    color: var(--background_text_city);
+    font-weight: 600;
+}
+/* couleur du background du switcher actif */
+.city_theme_selector_active {
+    background-color: var(--text_city);
+}
+/* couleur du svg réseau sociaux */
+.city_theme_svg svg {
+    fill: var(--text_city);
+}
+.city_theme_svg svg:hover {
+    fill: var(--link_hover_city);
+}
