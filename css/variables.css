@@ -1,0 +1,36 @@
+:root {
+/* colors */
+
+/* ancien theme light */
+--light-hover: #ff6a00;
+--light-text: #774929;
+--light-background: #fcbc55;
+--ligth-text-background: #ffc972;
+
+/* Theme principal "retro" */;
+--text_retro: #fef265; /* les textes */
+--link_hover_retro: #fef69a; /* les textes */
+--background_retro: #282828; /* le background */
+--background_text_retro: #3c3c3cce; /* le texte en background */
+--word_retro: #66ff66; /* certains mots des textes */
+/* pas de couleur sur le hover mais plutot un chngement d'opacité ou une version plus foncée de la couleur du texte */
+
+/* Theme secondaire "océanique" */
+--text_oceanic: #f8c291; /* les textes */
+--link_hover_oceanic: #fbd6b4; /* les textes */
+--background_oceanic: #0a3d62; /* le background */
+--background_text_oceanic: #0c5182cf; /* le texte en background */
+--word_oceanic: #fff; /* certains mots des textes */
+
+/* Theme tertiaire "à déterminer" */
+--dark-text: #fff; /* les textes */
+--dark-background: #fff; /* le background */
+--dark-text-background: #fff; /* le texte en background */
+--dark-green: #fff; /* certains mots des textes */
+
+/* colors */
+
+/* size */
+/* size */
+
+}

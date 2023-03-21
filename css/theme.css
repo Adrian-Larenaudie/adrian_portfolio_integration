@@ -1,0 +1,58 @@
+/* THEME RETRO */
+
+/* les textes & le background  */
+.retro_theme_main_background {
+    background-color: var(--background_retro);
+}
+.retro_theme_main {
+    color: var(--text_retro);
+    border-color: var(--text_retro);
+}
+.retro_theme_link {
+    transition: .5s;
+    color: var(--text_retro);
+}
+.retro_theme_link:hover {
+    color: var(--link_hover_retro);
+}
+/* les mot possédant une couleur différentes */
+.retro_theme_word {
+    color: var(--word_retro);
+}
+/* le texte en background  */
+.retro_theme_background_text {
+    color: var(--background_text_retro);
+}
+/* couleur du background du switcher actif */
+.retro_theme_selector_active {
+    background-color: var(--text_retro);
+}
+
+/* THEME OCEANIC */
+
+/* les textes & le background  */
+.oceanic_theme_main_background {
+    background-color: var(--background_oceanic);
+}
+.oceanic_theme_main {
+    color: var(--text_oceanic);
+    border-color: var(--text_oceanic);
+}
+.oceanic_theme_link {
+    color: var(--text_oceanic);
+}
+.oceanic_theme_link:hover {
+    color: var(--link_hover_oceanic);
+}
+/* les mot possédant une couleur différentes */
+.oceanic_theme_word {
+    color: var(--word_oceanic);
+}
+/* le texte en background  */
+.oceanic_theme_background_text {
+    color: var(--background_text_oceanic);
+}
+/* couleur du background du switcher actif */
+.oceanic_theme_selector_active {
+    background-color: var(--text_oceanic);
+}
