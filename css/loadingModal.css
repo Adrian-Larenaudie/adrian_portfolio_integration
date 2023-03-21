@@ -1,0 +1,16 @@
+/* page de chargement en arrivant sur le site */
+.loading_application {
+    display: flex;
+    z-index: 7000;
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    padding-top: 5rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}

@@ -11,7 +11,7 @@
 --text_retro: #fef265; /* les textes */
 --link_hover_retro: #d1c001; /* les textes */
 --background_retro: #282828; /* le background */
---background_text_retro: #3c3c3cce; /* le texte en background */
+--background_text_retro: #555555ce; /* le texte en background */
 --word_retro: #66ff66; /* certains mots des textes */
 /* pas de couleur sur le hover mais plutot un chngement d'opacité ou une version plus foncée de la couleur du texte */
 
@@ -19,7 +19,7 @@
 --text_oceanic: #f8c291; /* les textes */
 --link_hover_oceanic: #fea959; /* les textes */
 --background_oceanic: #0a3d62; /* le background */
---background_text_oceanic: #0c5182cf; /* le texte en background */
+--background_text_oceanic: #0e5f99cf; /* le texte en background */
 --word_oceanic: #fff; /* certains mots des textes */
 
 /* Theme tertiaire "à déterminer" */

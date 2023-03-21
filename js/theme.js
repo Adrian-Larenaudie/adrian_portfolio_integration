@@ -28,7 +28,7 @@ retro_theme_switcher.addEventListener('click', (event) => {
                     tag.classList.add('retro_theme_link');
                 } else if (tag.className.includes('social_network')) {
                     tag.classList.add('retro_theme_svg');
-                } else if (tag.className.includes('footer_segment') || tag.className.includes('burger_span')) {
+                } else if (tag.className.includes('footer_segment') || tag.className.includes('burger_span') || tag.className.includes('menu_mobile_segment')) {
                     tag.classList.add('retro_theme_selector_active')
                 } else {
                     tag.classList.add('retro_theme_main');
@@ -60,7 +60,7 @@ oceanic_theme_switcher.addEventListener('click', (event) => {
                 tag.classList.add('oceanic_theme_link');
             } else if (tag.className.includes('social_network')) {
                 tag.classList.add('oceanic_theme_svg');
-            } else if (tag.className.includes('footer_segment') || tag.className.includes('burger_span')) {
+            } else if (tag.className.includes('footer_segment') || tag.className.includes('burger_span') || tag.className.includes('menu_mobile_segment')) {
                 tag.classList.add('oceanic_theme_selector_active')
             } else {
                 tag.classList.add('oceanic_theme_main');
@@ -74,7 +74,7 @@ oceanic_theme_switcher.addEventListener('click', (event) => {
     }
 });
 
-const setRetroTheme = () => {
+const loadingApplication = () => {
     application.classList.add('retro_theme_main_background');
     menu_mobile.classList.add('retro_theme_main_background');
     allTags.forEach(tag => {
@@ -87,7 +87,7 @@ const setRetroTheme = () => {
                 tag.classList.add('retro_theme_link');
             } else if (tag.className.includes('social_network')) {    
                 tag.classList.add('retro_theme_svg');
-            } else if (tag.className.includes('footer_segment') || tag.className.includes('burger_span')) {
+            } else if (tag.className.includes('footer_segment') || tag.className.includes('burger_span') || tag.className.includes('menu_mobile_segment')) {
                 tag.classList.add('retro_theme_selector_active')
             } else {
                 tag.classList.add('retro_theme_main');
@@ -95,9 +95,9 @@ const setRetroTheme = () => {
         } catch (error) {
             if(!error.TYpeError === 'tag.className.includes is not a function')
                 console.log(error);
-        }
-        
+        }       
     });
+
 };
 
-setRetroTheme();
+loadingApplication();

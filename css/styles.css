@@ -62,13 +62,14 @@
 .background_word {
     position: absolute;
     transform: rotate(90deg);
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-family: sans-serif;
-    font-weight: 800;
-    right: -7rem;
-    bottom: 40%;
+    /* text-transform: uppercase; */
+    font-size: 1.3rem;
+   /*  font-family: sans-serif; */
+    font-weight: 500;
+    right: -9.5rem;
+    bottom: 50%;
     margin: 1rem;
+    letter-spacing: 0;
 }
 /* BACKGROUND TEXT */
 
@@ -87,18 +88,22 @@
 }
 .footer_segment {
     max-width: 750px;
-    width: 70%;
-    margin: 1rem 5rem 2rem 5rem;
+    width: 65%;
+    margin: 1rem 6rem 2rem 6rem;
     height: .5px;
     border-right: .2rem;
 }
 svg {
     cursor: pointer;
 }
+svg:hover, .footer_contact:hover {
+    transform: translateY(-10%);
+}
 .footer_contact_block {
     margin: 1rem;
     cursor: pointer;
 }
+
 /* FOOTER */
 
 /* HOME */
