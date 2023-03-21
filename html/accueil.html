@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/menuMobile.css">
 </head>
 <body>
 
@@ -39,22 +40,33 @@
                 <div>
                     <h1 class="main_content_home_title">Bienvenue, je suis <span class="solo_word">Adrian</span></h1>
                     <h2 class="main_content_home_subtitle">
-                        <span>Développeur web, je travaille avec</span>
+                        <span>Développeur web</span>
                         <span class="main_content_word_scroller solo_word">nodejs</span>
                     </h2>
                     <!-- home navigation -->
                     <nav class="home_navigation">
-                        <a class="link home_link" href="./accueil.html">Accueil</a>
-                        <a class="link home_link" href="./works.html">Réalisations</a>
-                        <a class="link home_link" href="./about.html">A propos</a>
+                        <a class="link home_link" href="./accueil.html">accueil</a>
+                        <a class="link home_link" href="./works.html">réalisations</a>
+                        <a class="link home_link" href="./about.html">à propos</a>
                     </nav>
                     <!-- home navigation -->
                 </div>
             </div>
 
             <!-- le footer -->
-            <footer>
-                <h1>ici c le footer</h1>
+            <footer class="footer_block">
+                <div class="footer_segment"></div>
+                <div class="social_network">
+                    <svg class="social_network_svg" fill="auto" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px">
+                        <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/>
+                    </svg>
+                    <svg class="social_network_svg" fill="auto" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px">
+                        <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/>
+                    </svg>
+                </div>
+                <div class="footer_contact_block">
+                    <p class="footer_contact solo_word">Me contacter</p>
+                </div>
             </footer>
             <!-- footer -->
 
@@ -63,17 +75,30 @@
 
         <!-- menu burger openner -->
         <div class="burger_menu_openner_block">
-
+            <div class="burger_menu_openner">
+                <input class="menu_hamburger" type="checkbox" id="burger_menu">
+                <label for="burger_menu"><span class="burger_span"></span></label>
+            </div>
         </div>
         <!-- menu burger openner -->
 
         <!-- modale du menu burger -->
-        <div class="burger_menu_modal_block">
-
+        <div class="menu_mobile" id="menu_mobile">
+            <div class="menu_mobile_block_logo solo_word">
+                al
+            </div>
+            <h1 class="menu_mobile_title">Menu</h1>
+            <nav class="navigation_mobile">
+                <a class="navigation_mobile_link mobile_link link" href="../frontoffice/accueil.html">accueil</a>
+                <a class="navigation_mobile_link mobile_link link" href="./admin.html">réalisations</a>
+                <a class="navigation_mobile_link mobile_link link" href="./work.html">à propos</a>
+            </nav>
         </div>
         <!-- modale du menu burger -->
    </div>
 
 </body>
     <script src="../js/index.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/menuBurger.js"></script>
 </html>

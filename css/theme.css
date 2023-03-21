@@ -9,7 +9,6 @@
     border-color: var(--text_retro);
 }
 .retro_theme_link {
-    transition: .5s;
     color: var(--text_retro);
 }
 .retro_theme_link:hover {
@@ -27,6 +26,13 @@
 .retro_theme_selector_active {
     background-color: var(--text_retro);
 }
+/* couleur du svg réseau sociaux */
+.retro_theme_svg svg {
+    fill: var(--text_retro);
+}
+.retro_theme_svg svg:hover {
+    fill: var(--link_hover_retro);
+}
 
 /* THEME OCEANIC */
 
@@ -39,6 +45,7 @@
     border-color: var(--text_oceanic);
 }
 .oceanic_theme_link {
+    transition: .3s;
     color: var(--text_oceanic);
 }
 .oceanic_theme_link:hover {
@@ -55,4 +62,11 @@
 /* couleur du background du switcher actif */
 .oceanic_theme_selector_active {
     background-color: var(--text_oceanic);
+}
+/* couleur du svg réseau sociaux */
+.oceanic_theme_svg svg {
+    fill: var(--text_oceanic);
+}
+.oceanic_theme_svg svg:hover {
+    fill: var(--link_hover_oceanic);
 }
