@@ -23,10 +23,11 @@
 --word_oceanic: #fff; /* certains mots des textes */
 
 /* Theme tertiaire "à déterminer" */
---dark-text: #fff; /* les textes */
---dark-background: #fff; /* le background */
---dark-text-background: #fff; /* le texte en background */
---dark-green: #fff; /* certains mots des textes */
+--text_test: #b71540; /* les textes */
+--link_hover_test: #b71540; /* les textes */
+--background_test: #b8e994; /* le background */
+--background_text_test: #b8e994; /* le texte en background */
+--word_test: #fff; /* certains mots des textes */
 
 /* colors */
 
